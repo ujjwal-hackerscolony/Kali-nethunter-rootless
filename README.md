@@ -10,3 +10,5 @@ quick features
 Auto-detect architecture (arm, arm64, x86/x86_64)
 
 Choose desktop environment: xfce, mate, lxde, kde
+
+Scripts: install.sh, start.sh, stop.sh, enter.sh
