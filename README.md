@@ -20,3 +20,11 @@ Prereqs (on Android / Termux
 Termux (Android)
 
 Allow storage: termux-setup-storage
+
+Recommended termux packages: proot, proot-distro (if available), wget, tar, pulseaudio
+
+Basic usage
+
+Edit config.sh as needed (DE, VNC type, ports).
+
+Run: ./install.sh
