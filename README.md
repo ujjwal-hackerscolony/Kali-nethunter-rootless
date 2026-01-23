@@ -8,3 +8,5 @@ Rootless Kali Linux desktop in Termux (Android) — multi-arch, multi-DE, TigerV
 quick features
 
 Auto-detect architecture (arm, arm64, x86/x86_64)
+
+Choose desktop environment: xfce, mate, lxde, kde
