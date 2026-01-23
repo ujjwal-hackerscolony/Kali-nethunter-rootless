@@ -18,3 +18,5 @@ Configurable via config.sh
 Prereqs (on Android / Termux
 
 Termux (Android)
+
+Allow storage: termux-setup-storage
