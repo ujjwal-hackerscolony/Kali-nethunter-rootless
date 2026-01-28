@@ -44,5 +44,5 @@ KALI_ROOTFS_URL_X86_64="${KALI_ROOTFS_URL_X86_64:-https://example.com/kali-amd64
 
 Package manager update mirror (inside Kali)
 
-KALI_MIRROR="${KALI_MIRROR:-http://http.kali.org/kali
+KALI_MIRROR="${KALI_MIRROR:-http://http.kali.org/kali}"
 
