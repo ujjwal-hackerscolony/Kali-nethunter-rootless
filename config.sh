@@ -27,3 +27,20 @@ install.sh
 
 If using proot-distro, install.sh will prefer proot-distro.
 
+
+https://example.com/kali-amd64-rootfs.tar.gz
+
+https://example.com/kali-x86-rootfs.tar.gz
+
+https://example.com/kali-armhf-rootfs.tar.gz
+
+https://example.com/kali-arm64-rootfs.tar.gz
+
+KALI_ROOTFS_URL_ARM64="${KALI_ROOTFS_URL_ARM64:-https://example.com/kali-arm64-rootfs.tar.gz}"
+KALI_ROOTFS_URL_ARM="${KALI_ROOTFS_URL_ARM:-https://example.com/kali-armhf-rootfs.tar.gz}"
+KALI_ROOTFS_URL_X86="${KALI_ROOTFS_URL_X86:-https://example.com/kali-x86-rootfs.tar.gz}"
+KALI_ROOTFS_URL_X86_64="${KALI_ROOTFS_URL_X86_64:-https://example.com/kali-amd64-rootfs.tar.gz}"
+
+Package manager update mirror (inside Kali)
+
+
