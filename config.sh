@@ -13,6 +13,8 @@ VNC_MODE="${VNC_MODE:-tigervnc}"
 5901
 
 VNC options
+ 
+KALI_MIRROR=
 
 Rootfs URLs (fallbacks). You may replace with official/artifact URLs suitable for your arch.
 
