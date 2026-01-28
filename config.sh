@@ -47,3 +47,5 @@ Package manager update mirror (inside Kali)
 KALI_MIRROR="${KALI_MIRROR:-http://http.kali.org/kali}"
 
 Geometry: Change To Match Your Device
+
+GEOMETRY="${GEOMETRY:-1280*700}"
