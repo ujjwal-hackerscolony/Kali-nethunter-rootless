@@ -1,4 +1,4 @@
-# Kali-nethunter-rootless
+Kali-nethunter-rootless
 kali-termux-desktop
 
 
@@ -28,3 +28,11 @@ Basic usage
 Edit config.sh as needed (DE, VNC type, ports).
 
 Run: ./install.sh
+
+Start desktop: ./start.sh
+Connect: 
+TigerVNC: connect to 127.0.0.1:5901 via your VNC client (use Termux:VNC or connect via SSH port-forward).
+127.0.0.1:5901
+http://127.0.0.1:6080
+
+noVNC: open http://127.0.0.1:6080 in a browser (or use remote port-forwarding).
