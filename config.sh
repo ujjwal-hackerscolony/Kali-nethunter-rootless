@@ -51,4 +51,4 @@ Geometry: Change To Match Your Device
 GEOMETRY="${GEOMETRY:-1280*700}"
 DEPTH="{$DEPTH:-24}"
 
-EXPORT FOR 
+EXPORT FOR SCRIPTS
