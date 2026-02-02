@@ -35,3 +35,7 @@ chmod +x install-nethunter.sh
 
 echo "[+] Installing Kali NetHunter Rootless..."
 ./install-nethunter.sh
+
+echo ""
+echo "[✓] Kali NetHunter Rootless Installed Successfully!"
+echo "Run it using: nh"
