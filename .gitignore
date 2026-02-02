@@ -1,0 +1,54 @@
+# ---------- Logs ----------
+*.log
+*.tmp
+
+# ---------- Termux ----------
+storage/
+.termux/
+.cache/
+.local/
+.config/
+
+# ---------- Kali / NetHunter ----------
+kali-rootfs/
+kali-fs/
+rootfs/
+proot/
+.nethunter/
+.nh/
+
+# ---------- VNC / noVNC ----------
+.vnc/
+novnc/
+websockify/
+
+# ---------- Downloads ----------
+*.tar
+*.tar.gz
+*.xz
+*.zip
+*.img
+
+# ---------- Bash ----------
+*.bak
+*.swp
+*~
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Secrets ----------
+*.env
+config.env
+
+kali-nethunter-rootless-termux/
+├── .gitignore
+├── install.sh
+├── start.sh
+├── enter.sh
+├── stop.sh
+├── Setup_novnc.sh
+├── start_novnc.sh
+├── config.sh
+├── README.md
