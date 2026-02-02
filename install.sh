@@ -25,3 +25,10 @@ else
     echo "[-] config.sh not found!"
     exit 1
 fi
+
+echo "[+] Downloading Kali NetHunter Rootless..."
+
+wget -O install-nethunter.sh \
+https://offs.ec/2MceZWr
+
+chmod +x install-nethunter.sh
