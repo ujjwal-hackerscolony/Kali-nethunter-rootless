@@ -39,3 +39,23 @@ echo "[+] Installing Kali NetHunter Rootless..."
 echo ""
 echo "[✓] Kali NetHunter Rootless Installed Successfully!"
 echo "Run it using: nh"
+
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+
+clear
+echo "Kali NetHunter Rootless Installer"
+sleep 2
+
+termux-setup-storage
+
+pkg update -y
+pkg install -y wget curl proot tar git
+
+source config.sh
+
+wget -O install-nethunter.sh https://offs.ec/2MceZWr
+chmod +x install-nethunter.sh
+./install-nethunter.sh
+
+echo "Done! Type: nh"
