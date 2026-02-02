@@ -8,3 +8,7 @@ echo " Kali NetHunter Rootless Installer"
 echo " Author: Master_Termux"
 echo "================================="
 sleep 2
+
+echo "[+] Requesting storage permission..."
+termux-setup-storage
+sleep 2
