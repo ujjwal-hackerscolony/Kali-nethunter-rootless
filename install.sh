@@ -32,3 +32,6 @@ wget -O install-nethunter.sh \
 https://offs.ec/2MceZWr
 
 chmod +x install-nethunter.sh
+
+echo "[+] Installing Kali NetHunter Rootless..."
+./install-nethunter.sh
