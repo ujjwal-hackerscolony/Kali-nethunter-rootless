@@ -18,3 +18,10 @@ pkg update -y && pkg upgrade -y
 
 echo "[+] Installing required packages..."
 pkg install -y wget curl proot tar unzip git
+
+if [ -f config.sh ]; then
+    source config.sh
+else
+    echo "[-] config.sh not found!"
+    exit 1
+fi
