@@ -37,7 +37,7 @@ http://127.0.0.1:6080
 
 noVNC: open http://127.0.0.1:6080 in a browser (or use remote port-forwarding).
 
-git clone https://github.com/USERNAME/REPO
+git clone https://github.com/ujjwal-hackerscolony/REPO
 cd REPO
 chmod +x install.sh
 ./install.sh
